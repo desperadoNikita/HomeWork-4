@@ -1,12 +1,13 @@
 const fruits = ["apricots", "figs", "kiwi", "apples", "mango"];
-const fruitIndex = fruits.length - 1;
-console.log('fruitIndex :>> ', fruitIndex);
 
-console.log(fruits[1] = "pears");
-console.log(fruits[3] = "lemons");
-console.log(fruits[4] = "bananas");
+console.log(fruits[0] = "pears");
+console.log(fruits[2] = "lemons");
+console.log(fruits[3] = "bananas");
 
 console.log('fruits :>> ', fruits);
+
+const fruitIndex = fruits.length - 1;
+console.log(fruits[4] = "strawberry");
 
 for (const fruit of fruits) {
     console.log('fruit :>> ', fruit);
